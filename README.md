@@ -1,6 +1,6 @@
 <div align="center">
     <a href="https://github.com/kaangiray26/earbuds">
-        <img src="https://kaangiray26.github.io/earbuds/static/512.png" alt="Earbuds Logo" width="256" height="256">
+        <img src="https://kaangiray26.github.io/earbuds/512.png" alt="Earbuds Logo" width="256" height="256">
     </a>
     <h1 align="center">earbuds</h1>
     <p align="center">
