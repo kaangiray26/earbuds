@@ -18,5 +18,17 @@
     </p>
 </div>
 
-## About
-This is just a funny project I put together to control my computer with my earbuds. It's a simple Python script that listens to the media keys on your earbuds and executes actions on your computer.
+## about
+This is just a funny project I put together to control my computer with my earbuds. It's a simple web server that utilizes the [Media Session API](https://developer.mozilla.org/en-US/docs/Web/API/Media_Session_API) to listen to the media keys on your earbuds. You can assign custom actions to these keys and run them on your computer.
+
+## screenshots
+![screnshot-1](https://kaangiray26.github.io/earbuds/screenshot-1.png)
+![screnshot-2](https://kaangiray26.github.io/earbuds/screenshot-2.png)
+
+## installation
+```bash
+git clone https://github.com/kaangiray26/earbuds.git
+cd earbuds
+chmod +x run.sh
+./run.sh
+```
