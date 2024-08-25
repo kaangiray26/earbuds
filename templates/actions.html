@@ -1,0 +1,14 @@
+<div class="actions">
+    <h3>Actions</h3>
+    <p>Assign an action to this gesture:</p>
+    <ul>
+        {% for action in actions %}
+        <li onclick="select_item(this)">
+            <span>{{ action }}</span>
+        </li>
+        {% endfor %}
+    </ul>
+    <div class="button-container">
+        <button onclick="earbuds.assign_action()">Assign</button>
+    </div>
+</div>

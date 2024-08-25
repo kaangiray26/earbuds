@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>earbuds</title>
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0, maximum-scale=5"
+        />
+        <meta
+            name="description"
+            content="Assign actions to your earbuds to control your computer."
+        />
+        <link rel="stylesheet" href="/static/style.css" />
+        <link
+            rel="shortcut icon"
+            type="image/svg+xml"
+            href="/static/favicon.svg"
+        />
+        <script src="/static/earbuds.js"></script>
+    </head>
+    <body>
+        <main>
+            <h1>earbuds</h1>
+            <p>Assign actions to your earbuds to control your computer.</p>
+            <p>Active: <code ref="active">false</code></p>
+            <div class="gestures">
+                <div class="gesture" onclick="earbuds.open_menu(1)">
+                    <img taps="1" src="/static/tap.svg" alt="Tap" />
+                    <p>1x Tap</p>
+                </div>
+                <div class="gesture" onclick="earbuds.open_menu(2)">
+                    <img taps="2" src="/static/tap.svg" alt="Tap" />
+                    <p>2x Tap</p>
+                </div>
+                <div class="gesture" onclick="earbuds.open_menu(3)">
+                    <img taps="3" src="/static/tap.svg" alt="Tap" />
+                    <p>3x Tap</p>
+                </div>
+            </div>
+            <button onclick="earbuds.toggle()">Toggle</button>
+            <audio src="/static/example.mp3" controls loop></audio>
+            <footer>
+                <p>
+                    This work is licensed under the
+                    <a
+                        href="https://github.com/kaangiray26/earbuds/blob/main/LICENSE"
+                        >MIT License</a
+                    >.
+                </p>
+            </footer>
+        </main>
+        <dialog id="dialog"></dialog>
+    </body>
+</html>
